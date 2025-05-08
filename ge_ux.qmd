@@ -154,7 +154,7 @@ ggplot(category_counts, aes(x = reorder(feedback_category, n), y = percentage)) 
   geom_bar(stat = "identity", fill = "steelblue") +
   coord_flip() +
   labs(
-    title = "Hvad ville gøre dig mere tilbøjelig til at anbefale Giv Effektivt?",
+    title = "Hvad skal vi ændre, for at du anbefaler os til flere?",
     subtitle = "Procentdel af (kategoriserede) svar",
     x = NULL,
     y = "Procentdel (%)"
@@ -276,7 +276,7 @@ ggplot(category_counts, aes(x = reorder(response_simplified, n), y = percentage)
   geom_bar(stat = "identity", fill = "steelblue") +
   coord_flip() +
   labs(
-    title = "Kendskab til og påvirkning af Effektiv Altruisme (EA)",
+    title = "Hvilket udsagn om EA passer bedst om dig",
     subtitle = "Fordeling af svar fra 195 respondenter",
     x = NULL,
     y = "Procentdel (%)"
