@@ -3,7 +3,7 @@ title: "Giv Effektivt post-donation survey results"
 author: 
   - Theiss Bendixen
   - Giv Effektivt
-date: today
+date: "2025-05-08"
 date-modified: today
 format:
   html:
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
   warning = FALSE,
   message = FALSE,
   error = FALSE,
-  echo = FALSE,
+  echo = TRUE,
   cache.comments = FALSE
 )
 
